@@ -1,0 +1,19 @@
+1.target:
+         _blank -- 在新窗口中打开链接
+         _parent -- 在父窗体中打开链接
+         _self -- 在当前窗体打开链接,此为默认值
+         _top -- 在当前窗体打开链接，并替换当前的整个窗体
+2. tbody、tfoot、thead
+  thead　表格的头        用来放标题之类的东西
+  tbody　表格的身体    放数据本体
+  tfoot　 表格的脚       放表格的脚注之类
+3.travel.html .road_img{} 加鼠标覆盖上的样式
+4.轮播图实现
+    animation:picture 20s infinite;
+    /*animation:动画名称  时间  循环播放动画*/
+5.white-space 属性的值。
+      nowrap 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。
+      pre-wrap 保留空白符序列，但是正常地进行换行。
+      pre-line 合并空白符序列，但是保留换行符。
+      inherit 规定应该从父元素继承
+

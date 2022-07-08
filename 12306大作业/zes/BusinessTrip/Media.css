@@ -1,0 +1,99 @@
+/*foodSpecialty页面开始*/
+@media (max-width:920px) {
+.header{
+    height: auto;
+    position: relative;
+}
+.header .logo {
+    width: 100%;
+    }
+.header-right{
+    display: none;
+}
+/*导航栏*/
+    .navigation .wrapper{
+        position: relative;
+        background-color: white;
+        width: 100%;
+        height: 320px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation .wrapper ul li{
+        width: 100%;
+        background-color: #0b5ed7!important;
+    }
+    /*下方菜单加主题区域*/
+    .insurance,
+    .insurance_header,
+    .insurance_content{
+        width: 100%;
+    }
+    .insurance_content .insurance_left{
+        width: 30%;
+    }
+    .insurance_content .insurance_right{
+        width: 55%;
+    }
+    .center_welcome .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .center_welcome .content div:nth-child(2),
+    .center_welcome .content div:nth-child(3){
+        margin-bottom: 70px;
+    }
+    .item_canlender {
+
+        display: flex;
+        flex-direction: column;
+    }
+    .content .content_no div{
+        padding-left: 20px;
+    }
+    .content_no div:first-child{
+        margin-top: 132px;
+    }
+    .content .content_no div:last-child{
+        line-height: 25px;
+    }
+
+
+    /*公共底部*/
+    .links{
+        width: 100%;
+        height: auto;
+    }
+    .links .links-left{
+        float: none;
+    }
+    .links  .links-left  ul li{
+        width: 100%;
+        float: none;
+    }
+    .links  .links-left  ul li img{
+        width: 70%;
+    }
+    .links   .links-right{
+        width: 100%;
+        height: auto;
+    }
+  .links-right ul li:first-child{
+      width: 50%;
+      float: none;
+      display: none;
+  }
+  .tip{
+      display: none;
+  }
+  /*公共底部*/
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer .wrapper{
+        width: 100%;
+    }
+}
+/*foodSpecialty页面结束*/
